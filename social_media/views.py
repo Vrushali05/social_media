@@ -7,7 +7,7 @@ from django.http import HttpResponseRedirect  # to response the request and redi
 
 from . import forms as loginform
 
-55
+
 class SignInView(generic.FormView):  # generic package and FormView module is inherited to class SignInView.
     # their are different types of ----View. FormView is mostly used.
 
